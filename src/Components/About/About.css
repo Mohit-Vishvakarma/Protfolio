@@ -1,0 +1,47 @@
+#ABOUT {
+  height: 60rem;
+  background: #fbeaff;
+  width: 85%;
+  margin: auto;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  box-shadow: 0px 3px 12px;
+  border: 2px solid #b39cd0;
+}
+#ABOUT .greeting {
+  width: 100%;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 80px;
+}
+#ABOUT .basicIntrect {
+  width: 75%;
+  margin: 50px auto;
+}
+#ABOUT .basicIntrect .heading {
+  line-height: 4rem;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  text-underline-position: under;
+}
+#ABOUT .basicIntrect p {
+  line-height: 25px;
+  text-align: justify;
+}
+#ABOUT .Education {
+  width: 75%;
+  margin: 50px auto;
+}
+#ABOUT .Education .heading {
+  line-height: 4rem;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  text-underline-position: under;
+}
+#ABOUT .Education p {
+  line-height: 18px;
+  text-align: justify;
+}
+#ABOUT .Education h4 {
+  line-height: 3rem;
+}/*# sourceMappingURL=About.css.map */

@@ -1,0 +1,81 @@
+#Skill {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 80px;
+
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .frontend {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .framwork {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .language {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .html {
+    height: 14rem;
+    width: 12rem;
+    // border: 2px solid black;
+    margin: 30px;
+
+    svg {
+      height: 10rem;
+      margin: auto;
+      display: block;
+      width: auto;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    #htmlIcon {
+      color: red;
+    }
+
+    #cssIcon {
+      color: blue;
+    }
+
+    #jsIcon {
+      color: yellow;
+    }
+
+    #bootstrapIcon {
+      color: blueviolet;
+    }
+
+    #tailwindIcon {
+      color: aqua;
+    }
+
+    #reactIcon {
+      color: blueviolet;
+    }
+
+    #javaIcon {
+      color: rgb(166, 9, 9);
+    }
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+  }
+}

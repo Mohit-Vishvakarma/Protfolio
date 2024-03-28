@@ -1,0 +1,52 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.navbar {
+  display: grid;
+  height: 7rem;
+  width: 100%;
+  box-shadow: 0px 10px 5px rgb(231, 209, 209);
+  grid-template-columns: 10rem 1fr 2fr 10rem;
+}
+.navbar .logo {
+  line-height: 7rem;
+  color: #00c9a7;
+  grid-column: 2/3;
+}
+.navbar .mainMenu {
+  margin-left: 1rem;
+  display: flex;
+  grid-column: 3/4;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 7rem;
+}
+.navbar .mainMenu a {
+  text-decoration: none;
+}
+.navbar .mainMenu a:hover {
+  color: red;
+}
+.navbar .mainMenu li {
+  list-style: none;
+}
+.navbar .mainMenu .menuIcon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    grid-template-columns: 2rem 1fr 2fr 2rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  .mainMenu ul {
+    display: none;
+  }
+  .menuIcon a {
+    display: block;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

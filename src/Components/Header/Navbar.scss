@@ -1,0 +1,83 @@
+// Variables
+$menuHeight: 7rem;
+$primaryColor: #845ec2;
+$secondaryColor: #b39cd0;
+$backgroundColor: #fbeaff;
+$uniqeColor: #00c9a7;
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+// Navbar Start
+.navbar {
+  display: grid;
+  height: 7rem;
+  width: 100%;
+  box-shadow: 0px 10px 5px rgb(231, 209, 209);
+  grid-template-columns: 10rem 1fr 2fr 10rem;
+
+  // Logo
+
+  .logo {
+    line-height: $menuHeight;
+    // color: rgb(87, 121, 110);
+    color: $uniqeColor;
+    grid-column: 2/3;
+  }
+
+  // Menu list
+
+  .mainMenu {
+    margin-left: 1rem;
+    display: flex;
+    grid-column: 3/4;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: $menuHeight;
+
+    // Menu list text and list
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: red;
+      }
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .menuIcon {
+      display: none;
+    }
+  }
+}
+
+// Reaponsive ---> Media Quary
+
+// Maxinum Width 1000px
+// Navbar media Quary
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    grid-template-columns: 2rem 1fr 2fr 2rem;
+  }
+}
+
+// Maxinum Width 660px
+// Menu list media Query
+
+@media screen and (max-width: 660px) {
+  .mainMenu ul {
+    display: none;
+  }
+
+  .menuIcon a {
+    display: block; // Code is not work I will cheak later to make responsive
+  }
+}

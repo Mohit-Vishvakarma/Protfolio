@@ -1,0 +1,65 @@
+#Skill {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 80px;
+}
+#Skill h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+#Skill .frontend {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#Skill .framwork {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#Skill .language {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#Skill .html {
+  height: 14rem;
+  width: 12rem;
+  margin: 30px;
+}
+#Skill .html svg {
+  height: 10rem;
+  margin: auto;
+  display: block;
+  width: auto;
+}
+#Skill .html h3 {
+  text-align: center;
+}
+#Skill .html #htmlIcon {
+  color: red;
+}
+#Skill .html #cssIcon {
+  color: blue;
+}
+#Skill .html #jsIcon {
+  color: yellow;
+}
+#Skill .html #bootstrapIcon {
+  color: blueviolet;
+}
+#Skill .html #tailwindIcon {
+  color: aqua;
+}
+#Skill .html #reactIcon {
+  color: blueviolet;
+}
+#Skill .html #javaIcon {
+  color: rgb(166, 9, 9);
+}
+#Skill h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+}/*# sourceMappingURL=skill.css.map */

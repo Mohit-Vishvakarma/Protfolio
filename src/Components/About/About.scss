@@ -1,0 +1,62 @@
+$primaryColor: #845ec2;
+$secondaryColor: #b39cd0;
+$backgroundColor: #fbeaff;
+$uniqeColor: #00c9a7;
+
+#ABOUT {
+  height: 60rem;
+  background: $backgroundColor;
+  width: 85%;
+  margin: auto;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  box-shadow: 0px 3px 12px;
+  border: 2px solid $secondaryColor;
+
+  .greeting {
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .basicIntrect {
+    width: 75%;
+    margin: 50px auto;
+
+    .heading {
+      line-height: 4rem;
+      text-decoration: underline double;
+      text-underline-position: under;
+    }
+
+    p {
+      line-height: 25px;
+      text-align: justify;
+    }
+  }
+
+  .Education{
+    width: 75%;
+    margin: 50px auto;
+
+    .heading {
+        line-height: 4rem;
+        text-decoration: underline double;
+        text-underline-position: under;
+      }
+
+      p {
+        line-height: 18px;
+        text-align: justify;
+      }
+
+      .infoBlock{
+        // margin-top: 20px;
+      }
+
+      h4{
+        line-height: 3rem;
+      }
+  }
+}

@@ -1,0 +1,72 @@
+#Contact {
+  background-color: #f6d5fd;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#Contact .contactFormRight img {
+  width: 40vw;
+  height: auto;
+}
+#Contact .contactFormLeft {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  gap: 20px;
+}
+#Contact .contactHeading h1 {
+  color: #343483;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+#Contact .contactHeading hr {
+  width: 80px;
+  height: 3px;
+  border-radius: 10px;
+  background: #343483;
+  margin-bottom: 20px;
+}
+#Contact .contact-inputs {
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  color: #343483;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+}
+#Contact .disc {
+  height: 150px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+#Contact .contact-inputs:focus {
+  border: 2px solid #2b679b;
+}
+#Contact .contact-inputs::-moz-placeholder {
+  color: #07345c;
+}
+#Contact .contact-inputs::placeholder {
+  color: #07345c;
+}
+#Contact .btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#Contact .btn button {
+  width: 160px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  color: #343483;
+  font-size: 15px;
+  background: white;
+  margin: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=contact.css.map */

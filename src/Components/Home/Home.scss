@@ -1,0 +1,73 @@
+// Variables
+$menuHeight: 7rem;
+$primaryColor: #845EC2;
+$secondaryColor: #B39CD0;
+$backgroundColor: #FBEAFF;
+$uniqeColor: #00C9A7;
+
+// Home Page
+
+.homePage {
+  display: flex;
+  display: flex;
+  margin: auto;
+  height: 80vh;
+  width: 55rem;
+  align-items: center;
+
+  .homeText {
+    width: 80rem;
+    height: 50vh;
+    border: 2px solid $secondaryColor;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    box-shadow: 0px 3px 12px;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+    justify-content: space-around;
+
+    .hometext1{
+      flex-direction: column;
+    }
+
+    h5{
+        margin-top: 1rem;
+    }
+  }
+
+  #hire {
+    width: 6rem;
+    height: 2.3rem;
+    border: 2px solid $secondaryColor;
+    margin: 1rem;
+    border-radius: 1rem;
+    background: $primaryColor;
+    font-size: 1rem;
+    font-weight: bold
+  }
+
+  .button a{
+    text-decoration: none;
+    color: black;
+
+  }
+
+  #about {
+    width: 6rem;
+    height: 2.3rem;
+    border: 2px solid $secondaryColor;
+    margin: 1rem;
+    border-radius: 1rem;
+    background: $primaryColor;
+    font-size: 1rem;
+    font-weight: bold
+  }
+
+  #myImage img{
+    width: 10rem;
+    border: 2px solid $secondaryColor;
+    border-radius: 300px;
+  }
+}
