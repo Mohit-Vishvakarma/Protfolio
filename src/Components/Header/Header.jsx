@@ -22,7 +22,7 @@ function Header() {
           </ul>
           <ul>
             <li>
-{/*               <a href="#">About</a> */}
+              <a href="#">About</a>
             </li>
           </ul>
           <ul>
