@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 import "./skill.css";
 import { IoLogoHtml5 } from "react-icons/io";
 import { FaCss3Alt } from "react-icons/fa6";
